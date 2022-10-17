@@ -1,0 +1,51 @@
+﻿<Window x:Class="Client.RobotArmWnd"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="RobotArmWnd" Height="329" Width="347">
+    <Grid>
+        <RepeatButton Content="&lt;&lt;" Height="23" HorizontalAlignment="Left" Margin="6,12,0,0" 
+                      Name="btn_left0"
+                      VerticalAlignment="Top" Width="75"  />
+        <Label Content="00" Height="28" HorizontalAlignment="Right" Margin="0,12,190,0" Name="lbl_actualPosition0" VerticalAlignment="Top" />
+        <RepeatButton Content="&gt;&gt;" Height="23" HorizontalAlignment="Left" Margin="232,12,0,0" 
+                      Name="btn_right0" 
+                      VerticalAlignment="Top" Width="75" />
+        <Label Content="Servo 0" Height="28" HorizontalAlignment="Right" Margin="0,11,130,0" Name="label1" VerticalAlignment="Top" />
+        <RepeatButton Content="&lt;&lt;" Height="23" HorizontalAlignment="Left" Margin="6,39,0,0" Name="btn_left1" VerticalAlignment="Top" Width="75" />
+        <Label Content="00" Height="28" HorizontalAlignment="Right" Margin="0,39,190,0" Name="lbl_actualPosition1" VerticalAlignment="Top" />
+        <RepeatButton Content="&gt;&gt;" Height="23" HorizontalAlignment="Left" Margin="232,39,0,0" Name="btn_right1" VerticalAlignment="Top" Width="75" />
+        <Label Content="Servo 1" Height="28" HorizontalAlignment="Right" Margin="0,38,130,0" Name="label3" VerticalAlignment="Top" />
+        <RepeatButton Content="&lt;&lt;" Height="23" HorizontalAlignment="Left" Margin="6,68,0,0" Name="btn_left2" VerticalAlignment="Top" Width="75" />
+        <Label Content="00" Height="28" HorizontalAlignment="Right" Margin="0,68,190,0" Name="lbl_actualPosition2" VerticalAlignment="Top" />
+        <RepeatButton Content="&gt;&gt;" Height="23" HorizontalAlignment="Left" Margin="232,68,0,0" Name="btn_right2" VerticalAlignment="Top" Width="75" />
+        <Label Content="Servo 2" Height="28" HorizontalAlignment="Right" Margin="0,67,130,0" Name="label5" VerticalAlignment="Top" />
+        <RepeatButton Content="&lt;&lt;" Height="23" HorizontalAlignment="Left" Margin="6,109,0,0" Name="btn_left3" VerticalAlignment="Top" Width="75" />
+        <Label Content="00" Height="28" HorizontalAlignment="Right" Margin="0,109,190,0" Name="lbl_actualPosition3" VerticalAlignment="Top" />
+        <RepeatButton Content="&gt;&gt;" Height="23" HorizontalAlignment="Left" Margin="232,109,0,0" Name="btn_right3" VerticalAlignment="Top" Width="75" />
+        <Label Content="Servo 3" Height="28" HorizontalAlignment="Right" Margin="0,108,130,0" Name="label7" VerticalAlignment="Top" />
+        <RepeatButton Content="&lt;&lt;" Height="23" HorizontalAlignment="Left" Margin="6,138,0,0" Name="btn_left4" VerticalAlignment="Top" Width="75" />
+        <Label Content="00" Height="28" HorizontalAlignment="Right" Margin="0,138,190,0" Name="lbl_actualPosition4" VerticalAlignment="Top" />
+        <RepeatButton Content="&gt;&gt;" Height="23" HorizontalAlignment="Left" Margin="232,138,0,0" Name="btn_right4" VerticalAlignment="Top" Width="75" />
+        <Label Content="Servo 4" Height="28" HorizontalAlignment="Right" Margin="0,137,130,0" Name="label9" VerticalAlignment="Top" />
+        <RepeatButton Content="&lt;&lt;" Height="23" HorizontalAlignment="Left" Margin="6,167,0,0" Name="btn_left5" VerticalAlignment="Top" Width="75" />
+        <Label Content="00" Height="28" HorizontalAlignment="Right" Margin="0,167,190,0" Name="lbl_actualPosition5" VerticalAlignment="Top" />
+        <RepeatButton Content="&gt;&gt;" Height="23" HorizontalAlignment="Left" Margin="232,167,0,0" Name="btn_right5" VerticalAlignment="Top" Width="75" />
+        <Label Content="Servo 5" Height="28" HorizontalAlignment="Right" Margin="0,166,130,0" Name="label11" VerticalAlignment="Top" />
+        <Button Content="Park the Robotarm" Height="23" HorizontalAlignment="Left" Margin="6,255,0,0" Name="btn_parkrobotarm" 
+                VerticalAlignment="Top" Width="114"/>
+        <Button Content="Set Servo Speed" Height="23" HorizontalAlignment="Left" Margin="6,208,0,0" Name="btn_setspeed"
+                VerticalAlignment="Top" Width="114" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="131,208,0,0" Name="cmbx_servos" VerticalAlignment="Top" Width="64" SelectedIndex="0">
+            <ComboBoxItem Content="Servo0" />
+            <ComboBoxItem Content="Servo1" />
+            <ComboBoxItem Content="Servo2" />
+            <ComboBoxItem Content="Servo3" />
+            <ComboBoxItem Content="Servo4" />
+            <ComboBoxItem Content="Servo5" />
+        </ComboBox>
+        <ComboBox Height="23" HorizontalAlignment="Right" Margin="0,208,64,0" Name="cmbx_speed" VerticalAlignment="Top" Width="60" 
+                  ItemsSource="{Binding}">
+           
+        </ComboBox>
+    </Grid>
+</Window>

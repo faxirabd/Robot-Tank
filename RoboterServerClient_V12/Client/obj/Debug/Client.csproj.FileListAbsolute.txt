@@ -1,0 +1,16 @@
+C:\TEMP\RoboterServerClient_V11\Client\bin\Debug\Client.exe.config
+C:\TEMP\RoboterServerClient_V11\Client\bin\Debug\Client.exe
+C:\TEMP\RoboterServerClient_V11\Client\bin\Debug\Client.pdb
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\MainWindow.baml
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\MainWindow.g.cs
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\App.g.cs
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\Client_MarkupCompile.cache
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\Client.g.resources
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\Client.Properties.Resources.resources
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\Client.csproj.GenerateResource.Cache
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\Client.exe
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\Client.pdb
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\MotorWnd.baml
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\MusicWindow.baml
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\MotorWnd.g.cs
+C:\TEMP\RoboterServerClient_V11\Client\obj\Debug\MusicWindow.g.cs

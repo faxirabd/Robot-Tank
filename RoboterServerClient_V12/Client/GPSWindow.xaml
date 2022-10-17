@@ -1,0 +1,12 @@
+﻿<Window x:Class="Client.GPSWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GPSWindow" Height="244" Width="170" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
+    <Grid>
+        <Label Name="lbl_sateleteNr" Content="----" HorizontalAlignment="Left" Margin="10,33,0,0" VerticalAlignment="Top" Width="272"/>
+        <Label Name="lbl_N" Content="----" HorizontalAlignment="Left" Margin="10,64,0,0" VerticalAlignment="Top" Width="272"/>
+        <Label Name="lbl_E" Content="----" HorizontalAlignment="Left" Margin="10,90,0,0" VerticalAlignment="Top" Width="272"/>
+        <Label Name="lbl_actualHeading" Content="----" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top" Width="272"/>
+        <Button Name="btn_location" Content="Show robot location" HorizontalAlignment="Left" Margin="10,172,0,0" VerticalAlignment="Top" Width="125" Click="btn_location_Click"/>
+    </Grid>
+</Window>
